@@ -94,12 +94,12 @@ python3 main.py example.com
 security-header-checker/
 │
 ├── main.py                  # Entry point of the application
-|── reports/
+├── reports/                 # Folder to store the generated reports
 ├── utils/
 │   ├── header_checker.py    # Core logic for security header analysis
 │   ├── hsts_checker.py      # Validation logic for HSTS headers
 │   ├── report_writer.py     # Logic for saving reports (JSON, CSV, Table)
-│   └── security_header_optimizer.py  # Optimizer for security headers
+│   └── status_code_checker.py # Logic for analyzing HTTP status codes
 ├── requirements.txt         # Python dependencies
 └── README.md                # Project documentation
 ```
