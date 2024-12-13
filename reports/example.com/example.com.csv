@@ -1,0 +1,8 @@
+Header,Status,Details
+Content-Security-Policy,Missing,N/A
+Strict-Transport-Security,Missing,N/A
+X-Content-Type-Options,Missing,N/A
+X-Frame-Options,Missing,N/A
+X-XSS-Protection,Missing,N/A
+Referrer-Policy,Missing,N/A
+Permissions-Policy,Missing,N/A

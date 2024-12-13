@@ -1,5 +1,5 @@
 {
-    "domain": "https://netflix.com",
+    "domain": "https://example.com",
     "status_code": {
         "code": 200,
         "message": "OK: The request has succeeded."
@@ -12,27 +12,23 @@
         },
         {
             "header": "Strict-Transport-Security",
-            "status": "Misconfigured",
-            "details": {
-                "max-age": true,
-                "includeSubDomains": true,
-                "preload": false
-            }
+            "status": "Missing",
+            "details": "N/A"
         },
         {
             "header": "X-Content-Type-Options",
-            "status": "Present",
-            "details": "nosniff"
+            "status": "Missing",
+            "details": "N/A"
         },
         {
             "header": "X-Frame-Options",
-            "status": "Present",
-            "details": "DENY"
+            "status": "Missing",
+            "details": "N/A"
         },
         {
             "header": "X-XSS-Protection",
-            "status": "Present",
-            "details": "1; mode=block; report=https://www.netflix.com/ichnaea/log/freeform/xssreport"
+            "status": "Missing",
+            "details": "N/A"
         },
         {
             "header": "Referrer-Policy",
