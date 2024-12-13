@@ -120,7 +120,10 @@ pip install -r requirements.txt
 
 ### requirements.txt
 ```plaintext
-requests>=2.25.1
+requests
+colorama
+tabulate
+prettytable
 ```
 
 ---
