@@ -1,5 +1,5 @@
-# Security Header Checker
-
+# SecHeadChecker
+ 
 A Python-based tool for analyzing and validating the security headers of websites. This tool helps developers and security professionals identify missing, misconfigured, or properly configured HTTP security headers to enhance website security.
 
 ---
@@ -37,8 +37,8 @@ A Python-based tool for analyzing and validating the security headers of website
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/security-header-checker.git
-   cd security-header-checker
+   git clone https://github.com/your-username/SecHeadChecker.git
+   cd SecHeadChecker
    ```
 
 2. Install dependencies:
