@@ -1,0 +1,14 @@
++---------------------------+---------------+----------------------------------------------------+
+|           Header          |     Status    |                      Details                       |
++---------------------------+---------------+----------------------------------------------------+
+|  Content-Security-Policy  |    Missing    |                        N/A                         |
+| Strict-Transport-Security | Misconfigured |    {'max-age': True, 'includeSubDomains': True,    |
+|                           |               |                 'preload': False}                  |
+|   X-Content-Type-Options  |    Present    |                      nosniff                       |
+|      X-Frame-Options      |    Present    |                        DENY                        |
+|      X-XSS-Protection     |    Present    |                   1; mode=block;                   |
+|                           |               | report=https://www.netflix.com/ichnaea/log/freefor |
+|                           |               |                    m/xssreport                     |
+|      Referrer-Policy      |    Missing    |                        N/A                         |
+|     Permissions-Policy    |    Missing    |                        N/A                         |
++---------------------------+---------------+----------------------------------------------------+
